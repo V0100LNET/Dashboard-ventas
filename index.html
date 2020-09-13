@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,500;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="d-flex">
+        <div id="sidebar-container"  class="bg-primary">
+            <div class="logo">
+                <h3 class="text-light font-weight-bold text-left">Dashboard</h3>
+            </div>
+            <div class="menu">
+                <a href="#" class="d-block text-light p-3"><i class="icon ion-md-apps mr-2 lead"></i>Tablero</a>
+                <a href="#" class="d-block text-light p-3"><i class="icon ion-md-people mr-2 lead"></i>Usuarios</a>
+                <a href="#" class="d-block text-light p-3"><i class="icon ion-md-stats mr-2 lead"></i>Estadistica</a>
+                <a href="#" class="d-block text-light p-3"><i class="icon ion-md-person mr-2 lead"></i>Perfil</a>
+                <a href="#" class="d-block text-light p-3"><i class="icon ion-md-settings mr-2 lead"></i>Configuración</a>
+            </div>
+        </div>
+
+        <div class="w-100">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="Buscar" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-primary" type="submit"><i class="icon ion-md-search"></i></button>
+                    </form>
+                    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <!-- <img src="https://img.icons8.com/color/48/000000/circled-user-male-skin-type-6.png"/> -->
+                                    <img class="img-fluid rounded-circle r-2" src="./assets/img/avatar.jpg" alt="" width="38" height="38">
+                                    Oswaldo Hernández
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Mi Perfil</a>
+                                    <a class="dropdown-item" href="#">Suscripción</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Cerrar sesión</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div dir="content">
+                <section class="py-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-9">
+                                <h1 class="font-weight-bold mb-0">Bienvenido Oswaldo</h1>
+                                <p class="text-muted">Revisa la última información</p>
+                            </div>
+                            <div class="col-3 d-flex">
+                                <button class="btn btn-primary align-self-center px-5">Descargar reporte</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="fondo-gris-lateral-mix">
+                    <div class="container">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-3 col-sm-6 col-md-6 linea-vertical my-3 text-center">
+                                        <h6 class="text-muted">Ingresos mensuales</h6>
+                                        <h3 class="font-weight-bold">$50.00</h3>
+                                        <h6 class="text-success"><i class="icon ion-md-arrow-dropup-circle"></i>50.50%</h6>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 col-md-6 linea-vertical my-3 text-center">
+                                        <h6 class="text-muted">Ingresos mensuales</h6>
+                                        <h3 class="font-weight-bold">$50.00</h3>
+                                        <h6 class="text-success"><i class="icon ion-md-arrow-dropup-circle"></i>50.50%</h6>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 col-md-6 linea-vertical my-3 text-center">
+                                        <h6 class="text-muted">Ingresos mensuales</h6>
+                                        <h3 class="font-weight-bold">$50.00</h3>
+                                        <h6 class="text-success"><i class="icon ion-md-arrow-dropup-circle"></i>50.50%</h6>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 col-md-6 linea-vertical my-3 text-center">
+                                        <h6 class="text-muted">Ingresos mensuales</h6>
+                                        <h3 class="font-weight-bold">$50.00</h3>
+                                        <h6 class="text-success"><i class="icon ion-md-arrow-dropup-circle"></i>50.50%</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--graficas-->
+                <section class="bg-grey">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 my-3">
+                                <div class="card">
+                                    <div class="card-header bg-light">
+                                        <h6 class="font-weight-bold">Número de usuarios de paga</h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <canvas id="myChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-4 my-3">
+                                <div class="car">
+                                    <div class="card-header bg-light">
+                                        <h6 class="font-weight-bold mb-09">Ventas recientes</h6>
+                                    </div>
+                                    <div class="card-body card-vln">
+                                        <div class="d-flex border-bottom py-2">
+                                            <div class="mr-3 align-self-center">
+                                                <h2 class="mb-0"><i class="icon ion-md-pricetag"></i></h2>
+                                            </div>
+                                            <div>
+                                                <h6 class="d-inline-block my-0">$250</h6><span class="badge badge-success ml-2">10% descuento</span>
+                                                <small class="d-block text-muted">Curso diseño web</small>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex border-bottom py-2">
+                                            <div class="mr-3 align-self-center">
+                                                <h2 class="mb-0"><i class="icon ion-md-pricetag"></i></h2>
+                                            </div>
+                                            <div>
+                                                <h6 class="d-inline-block my-0">$250</h6><span class="badge badge-success ml-2">10% descuento</span>
+                                                <small class="d-block text-muted">Curso diseño web</small>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex border-bottom py-2">
+                                            <div class="mr-3 align-self-center">
+                                                <h2 class="mb-0"><i class="icon ion-md-pricetag"></i></h2>
+                                            </div>
+                                            <div>
+                                                <h6 class="d-inline-block my-0">$250</h6><span class="badge badge-success ml-2">10% descuento</span>
+                                                <small class="d-block text-muted">Curso diseño web</small>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex border-bottom py-2">
+                                            <div class="mr-3 align-self-center">
+                                                <h2 class="mb-0"><i class="icon ion-md-pricetag"></i></h2>
+                                            </div>
+                                            <div>
+                                                <h6 class="d-inline-block my-0">$250</h6><span class="badge badge-success ml-2">10% descuento</span>
+                                                <small class="d-block text-muted">Curso diseño web</small>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex border-bottom py-2 mb-3">
+                                            <div class="mr-3 align-self-center">
+                                                <h2 class="mb-0"><i class="icon ion-md-pricetag"></i></h2>
+                                            </div>
+                                            <div>
+                                                <h6 class="d-inline-block my-0">$250</h6><span class="badge badge-success ml-2">10% descuento</span>
+                                                <small class="d-block text-muted">Curso diseño web</small>
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-primary btn-block">Ver todas</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>  
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js" integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
+    <script src="./assets/js/tabla.js"></script>
+</body>
+</html>
