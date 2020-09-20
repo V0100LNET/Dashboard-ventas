@@ -12,3 +12,5 @@ El Dashboard gestión de usuarios es un diseño que contiene como objetivo princ
 - Oswaldo Hernández
 
 
+
+![screenshot of gh pr status](https://github.com/V0100LNET/Dashboard-ventas/blob/master/assets/img/UI-Dashboard-ventas.png)
